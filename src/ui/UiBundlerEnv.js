@@ -1,6 +1,13 @@
-let { includes, flow, escapeRegExp } = require('lodash');
-let { isString, isArray, isPlainObject, get } = require('lodash');
-let { keys } = require('lodash');
+let {
+  escapeRegExp,
+  flow,
+  get,
+  includes,
+  isArray,
+  isPlainObject,
+  isString,
+  keys,
+} = require('lodash');
 let fromRoot = require('../utils/fromRoot');
 
 let asRegExp = flow(
